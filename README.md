@@ -21,3 +21,5 @@ CARLA consists mainly of two modules, the CARLA Simulator and the CARLA Python A
 Sensors are a special type of actor able to measure and stream data. All the sensors have a listen method that registers the callback function that will be called each time the sensor produces a new measurement. Sensors are typically attached to vehicles and produce data either each simulation update, or when a certain event is registered.
 
 To Learn more about the sensors read the carla documentation here[https://carla.readthedocs.io/en/latest/cameras_and_sensors/]
+
+Using sensor data and Reinforcement learning the model is trained. To Start training the model dowload the **Model Traing.py** file and run. 
