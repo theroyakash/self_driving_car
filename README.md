@@ -18,6 +18,8 @@ CARLA has been developed from the ground up to support development, training, an
 ## Reinforcement Learning:
 CARLA consists mainly of two modules, the CARLA Simulator and the CARLA Python API module. The simulator does most of the heavy work, controls the logic, physics, and rendering of all the actors and sensors in the scene; it requires a machine with a dedicated GPU to run. The CARLA Python API is a module that you can import into your Python scripts, it provides an interface for controlling the simulator and retrieving data. With this Python API you can, for instance, control any vehicle in the simulation, attach sensors to it, and read back the data these sensors generate. Most of the aspects of the simulation are accessible from Carla's Python API, and more will be in future releases.
 
+![screenshot](./Self Driving Car/sources/scripts image.png)
+
 Sensors are a special type of actor able to measure and stream data. All the sensors have a listen method that registers the callback function that will be called each time the sensor produces a new measurement. Sensors are typically attached to vehicles and produce data either each simulation update, or when a certain event is registered.
 
 To Learn more about the sensors read the carla documentation here[https://carla.readthedocs.io/en/latest/cameras_and_sensors/]
