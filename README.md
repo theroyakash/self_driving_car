@@ -1,4 +1,4 @@
-# Reinforcement Learning for Self Driving Cars in Carla Environment
+# Reinforcement Learning for Self Driving Cars
 
 This is an example of Self Driving car Using Carla and Reinforcement learning
 
