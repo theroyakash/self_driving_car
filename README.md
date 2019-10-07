@@ -16,3 +16,5 @@ CARLA has been developed from the ground up to support development, training, an
 - Autonomous Driving baselines: Carla provide Autonomous Driving baselines as runnable agents in CARLA, including an AutoWare agent and a Conditional Imitation Learning agent.
 
 ## Reinforcement Learning:
+CARLA consists mainly of two modules, the CARLA Simulator and the CARLA Python API module. The simulator does most of the heavy work, controls the logic, physics, and rendering of all the actors and sensors in the scene; it requires a machine with a dedicated GPU to run. The CARLA Python API is a module that you can import into your Python scripts, it provides an interface for controlling the simulator and retrieving data. With this Python API you can, for instance, control any vehicle in the simulation, attach sensors to it, and read back the data these sensors generate. Most of the aspects of the simulation are accessible from Carla's Python API, and more will be in future releases.
+
