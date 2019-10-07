@@ -1,6 +1,8 @@
 '''
 Copyright (c) 2019 theroyakash
 
+see privacy policy at www.iamroyakash.com/privacy
+
 This work is licensed under the terms of the GNU General Public License v3.0.
 
 Permissions of this strong copyleft license are conditioned on making available complete source code of
