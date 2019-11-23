@@ -19,17 +19,18 @@ import time
 import numpy as np
 import cv2
 import math
-from collections import deque
 import tensorflow as tf
-from tensorflow import keras
-from keras.callbacks import TensorBoard
 import keras.backend.tensorflow_backend as backend
+
 from threading import Thread
 from keras.layers import Dense, GlobalAveragePooling2D
 from keras.application.xception import Xception
 from keras.optimizers import Adam
 from keras.models import Model
 from tqdm import tqdm
+from collections import deque
+from tensorflow import keras
+from keras.callbacks import TensorBoard
 
 try:
     sys.path.append(glob.glob('../carla/dist/carla-*%d.%d-%s.egg' % (
