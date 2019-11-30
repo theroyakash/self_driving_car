@@ -40,7 +40,6 @@ try:
 except IndexError:
     pass
 
-
 actor_list = []
 
 IM_WIDTH = 640
