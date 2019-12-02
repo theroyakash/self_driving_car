@@ -134,7 +134,7 @@ class CarEnv:
 		self.rgb_cam = self.blueprint_library.find('sensor.camera.rgb')
 		self.rgb_cam.set_attribute("image_size_x", f"{self.im_width}")  # Why? Have to feed it to a neural net
 		self.rgb_cam.set_attribute("image_size_y", f"{self.im_height}")
-		self.rgb_cam.set_attribute("fov", f"110")  # Fish Eye View from the camera
+		self.rgb_cam.set_attribute("fov", f"110")  # Fish Eye View from the dashboard camera
 
 		transform = carla.Transform(carla.Location(x=2.5, z=0.7))  # setting a place for the camera
 		self.sensor = self.world.spawn_actor(self.rgb_cam, transform, attach_to=self.vehicle)
