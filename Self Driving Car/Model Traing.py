@@ -42,7 +42,8 @@ except IndexError:
 
 actor_list = []
 
-IM_WIDTH = 640
+# From Dash board Camera
+IM_WIDTH = 640      
 IM_HEIGHT = 480
 
 SHOW_PREVIEW = False
