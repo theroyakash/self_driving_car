@@ -124,11 +124,11 @@ class CarEnv:
 		self.actor_list.append(self.vehicle)
 	
 
-	# self.vehicle.set_autopilot(True)  
+		# self.vehicle.set_autopilot(True)  
 
-	# This is a hard-coded game engine based self driving car, not the self-driven Car. 
-	# We can make a model learn this auto-vehicular interaction(rule-based, game-engine based behaviour, 
-	# not human-centered) but here we wanna make rules on our own, not game-engine engineered weird piece of Shite.
+		# This is a hard-coded game engine based self driving car, not the self-driven Car. 
+		# We can make a model learn this auto-vehicular interaction(rule-based, game-engine based behaviour, 
+		# not human-centered) but here we wanna make rules on our own, not game-engine engineered weird piece of Shite.
 
 		# Use of Camera 
 		self.rgb_cam = self.blueprint_library.find('sensor.camera.rgb')
