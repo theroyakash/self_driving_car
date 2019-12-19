@@ -1,7 +1,7 @@
 '''
-Copyright (c) 2019 theroyakash
+Copyright (c) 2020 theroyakash
 
-see privacy policy at www.iamroyakash.com/privacy
+See privacy policy at www.iamroyakash.com/privacy
 
 This work is licensed under the terms of the GNU General Public License v3.0.
 
@@ -42,7 +42,8 @@ except IndexError:
 
 actor_list = []
 
-IM_WIDTH = 640
+# From Dash board Camera
+IM_WIDTH = 640      
 IM_HEIGHT = 480
 
 SHOW_PREVIEW = False
