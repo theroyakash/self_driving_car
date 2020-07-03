@@ -28,4 +28,4 @@ Using sensor data and Reinforcement learning the model is trained. To Start trai
 
 ![screenshot](./Self%20Driving%20Car/sources/tensorboard.png)
 
-Running it for a few hundred thousand episodes like 200,000 to 500,000 will enable us to see anything decent, provided your computer doesn't blows-up.
+Running it for a few hundred thousand episodes like 200,000 to 500,000 will enable us to see anything decent, provided your computer doesn't blow-up.
